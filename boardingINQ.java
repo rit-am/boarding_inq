@@ -9,9 +9,9 @@ import java.net.URL;
 
 public class boardingINQ {
 	public static void MyPOSTRequest() throws IOException {
-	    final String POST_PARAMS = "{\"urn\" " + ":" + " \"IMS99911\" }";
+	    final String POST_PARAMS = "{\"urn\" " + ":" + " \"RIT99911\" }";
 	    System.out.println(POST_PARAMS);
-	    URL obj = new URL("https://www.fdmerchantservices.com/MerchantOnBoarding/inquiryService");
+	    URL obj = new URL("https://www.rit.am.merchantservices.com/MerchantOnBoarding/inquiryService");
 	    HttpURLConnection postConnection = (HttpURLConnection) obj.openConnection();
 	    postConnection.setRequestMethod("POST");
 	    postConnection.setRequestProperty("Content-Type", "application/json");
