@@ -12,7 +12,7 @@ public class GetAndPost {
 
 	
 	public static void MyGETRequest() throws IOException {
-	    URL urlForGetRequest = new URL("https://www.fdmerchantservices.com/MerchantOnBoarding/inquiryService");
+	    URL urlForGetRequest = new URL("https://www.rit.am.com/MerchantOnBoarding/inquiryService");
 	    String readLine = null;
 	    HttpURLConnection conection = (HttpURLConnection) urlForGetRequest.openConnection();
 	    conection.setRequestMethod("GET");
