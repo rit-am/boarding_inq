@@ -2,8 +2,8 @@ package http_test_pkg1;
 
 public class Create_JSON {
 	
-	static String StringURL_MerchInq = "https://www.fdmerchantservices.com/MerchantOnBoarding/inquiryService";
-	static String StringURL_MerchBoarding = "https://www.fdmerchantservices.com/MerchantOnBoarding/EasyPayBoarding";
+	static String StringURL_MerchInq = "https://www.rit.am.com/MerchantOnBoarding/inquiryService";
+	static String StringURL_MerchBoarding = "https://www.rit.am.com/MerchantOnBoarding/EasyPayBoarding";
 	
 	static String StringTestURN = "{ "
 			+ "\"urn\" " + ":" + "\"IMS99911\" "
