@@ -14,7 +14,7 @@ public class https_pg {
 		/*
 	    HTTP_Post.POST
 	    	(
-	    			"https://www.fdmerchantservices.com/MerchantOnBoarding/inquiryService", 
+	    			"https://www.rit.am.com/MerchantOnBoarding/inquiryService", 
 	    			"{ \"urn\" " + ":" + "\"IMS99911\" }"
 	    				);
 	    */
